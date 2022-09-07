@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="edu.hitsz.application.GameGUI">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="785" height="828"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <enabled value="false"/>
+      <focusable value="false"/>
+      <font size="30"/>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="cb909" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="512" height="768"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <background color="-1644826"/>
+          <doubleBuffered value="true"/>
+          <enabled value="false"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c620c" class="javax.swing.JButton" binding="easyButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-12667960"/>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <defaultCapable value="true"/>
+              <doubleBuffered value="false"/>
+              <enabled value="true"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <focusTraversalPolicyProvider value="false"/>
+              <focusable value="false"/>
+              <font size="30"/>
+              <foreground color="-16777216"/>
+              <hideActionText value="true"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <label value="简单模式"/>
+              <text value="简单模式"/>
+            </properties>
+          </component>
+          <component id="201d4" class="javax.swing.JButton" binding="commonButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12667960"/>
+              <enabled value="true"/>
+              <font size="30"/>
+              <foreground color="-16777216"/>
+              <label value="普通模式"/>
+              <text value="普通模式"/>
+            </properties>
+          </component>
+          <component id="35825" class="javax.swing.JButton" binding="hardButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12667960"/>
+              <enabled value="true"/>
+              <font size="30"/>
+              <foreground color="-16777216"/>
+              <label value="困难模式"/>
+              <text value="困难模式"/>
+            </properties>
+          </component>
+          <component id="677f8" class="javax.swing.JComboBox" binding="soundEffectBox">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-1"/>
+              <doubleBuffered value="false"/>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <focusCycleRoot value="true"/>
+              <focusable value="true"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <inheritsPopupMenu value="false"/>
+              <lightWeightPopupEnabled value="false"/>
+              <model>
+                <item value="开"/>
+                <item value="关"/>
+              </model>
+              <name value=""/>
+              <opaque value="false"/>
+              <popupVisible value="false"/>
+              <requestFocusEnabled value="false"/>
+              <selectedIndex value="0"/>
+              <verifyInputWhenFocusTarget value="true"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="2fe9a" class="javax.swing.JLabel" binding="soundEffect">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="180" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <doubleBuffered value="false"/>
+              <enabled value="true"/>
+              <focusable value="false"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="4"/>
+              <labelFor value="677f8"/>
+              <name value=""/>
+              <text value="音效"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
